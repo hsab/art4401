@@ -1,0 +1,48 @@
+local function move_file(filename, args)
+  local outdir = args.outdir 
+  -- copy files only when --output-directory option has been used
+  if outdir ~= "" then 
+    local newfile = table.concat({outdir, filename}, "/")   
+    print("moving the file: ".. filename .. " to directory: " .. outdir)
+    os.execute("mv ".. filename .. " " .. newfile)
+    os.execute("move ".. filename .. " " .. newfile)
+  end
+  return false
+end
+
+local function copy_file(filename, args)
+  local outdir = args.outdir 
+  -- copy files only when --output-directory option has been used
+  if outdir ~= "" then 
+    local newfile = table.concat({outdir, filename}, "/")   
+    print("moving the file: ".. filename .. " to directory: " .. outdir)
+    os.execute("cp ".. filename .. " " .. newfile)
+    os.execute("copy ".. filename .. " " .. newfile)
+  end
+  return false
+end
+
+Make:match("html$", function(filename, args)
+  return move_file(filename, args)
+end)
+-- 
+-- Make:match("css$", function(filename, args)
+--   return copy_file(filename, args)
+-- end)
+-- 
+-- Make:match("js$", function(filename, args)
+--   return copy_file(filename, args)
+-- end)
+
+
+Make:match("tmp$", function(filename, args)
+  for _,ext in ipairs {"aux", "out.ps", "xref", "tmp", "4tc", "4ct", "idv", "lg","dvi", "log"} do
+    local newfile = filename:gsub("tmp$", ext)
+    print("Removing: ", newfile)
+    -- you can  move the aux files to the outdir using
+    move_file(newfile, args)
+    -- or, alternatively, just delete it
+    -- os.remove(newfile)
+  end
+  return false
+end)

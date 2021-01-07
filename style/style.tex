@@ -1,0 +1,78 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+
+ 
+\documentclass[10pt,letter,english]{article}
+\usepackage[margin=1.0in]{geometry}
+
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{booktabs}
+
+
+\usepackage{soul} % letterspacing, underlining, and more
+\usepackage[T1]{fontenc}
+\makeatletter
+\@ifpackageloaded{tex4ht}{}{%
+      \usepackage[sfdefault]{merriweather}
+      \usepackage{beramono}
+}
+\makeatother
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp} % euro and other symbols
+\usepackage{parskip}
+
+\usepackage{enumitem}% http://ctan.org/pkg/enumitem
+
+
+\usepackage{xcolor}
+\usepackage{sectsty}
+\definecolor{defaultColor}{rgb}{0.2,0.2,1}
+\chapterfont{\color{defaultColor}}
+\sectionfont{\color{defaultColor}} 
+
+\usepackage{xurl}
+\usepackage{bookmark}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+      colorlinks,
+      linkcolor={defaultColor},
+      citecolor={blue!50!black},
+      urlcolor={defaultColor}
+}
+
+\usepackage[normalem]{ulem}
+
+\usepackage{subfiles} % Best loaded last in the preamble
+
+\pdfstringdefDisableCommands{\renewcommand{\sout}{}}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}%
+}
+
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+\hyphenpenalty=10000
+% \sloppy
+
+\def\placeDate{%
+% \begin{itemize}[noitemsep,topsep=0pt,leftmargin=*,label={}]%
+%       \item \textcolor{defaultColor}{\textbf{\textsc{Mon \hspace{1mm} \dMon \hspace{1mm} --- \hspace{1mm} Wed \hspace{1mm} \dWed}}}%
+% \end{itemize}%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Custom Lengths
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newlength{\weeksLength}
+\newlength{\programLength}
+\setlength{\weeksLength}{.15\textwidth}
+\setlength{\programLength}{.85\textwidth}
