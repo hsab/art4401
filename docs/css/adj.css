@@ -1,5 +1,5 @@
 :root {
-    --osu-red: rgb(50 50 255 / 1);
+    --osu-red: rgb(255 50 50 / 1);
 }
 
 tr>td+td {
@@ -106,7 +106,7 @@ span.subsectionToc {
     border-radius: 5px;
     align-content: baseline;
     background: var(--osu-red);
-    box-shadow: 0px 5px 30px rgb(29 44 148);
+    box-shadow: 0px 5px 30px rgb(148 29 29);
     display: inline-block;
 }
 

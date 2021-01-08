@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=latex 2021.1.7)  7 JAN 2021 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=latex 2021.1.7)  7 JAN 2021 20:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -778,9 +778,22 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 30.
-[2] [3] [4] [5] [6]) [7] (./sections/projects.tex [8
+[2] [3] [4] [5])
+Runaway argument?
+{https://www.amazon.com/s?k=gaming+mouse&rh=p_36\begin {itemize} \item \ETC.
+! File ended while scanning use of \href.
+<inserted text> 
+                \par 
+l.25 \subfile{sections/intro}
+                             
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
-] [9]
+[6] (./sections/projects.tex [7
+
+] [8]
 ! Illegal parameter number in definition of \:attr.
 <to be read again> 
                    /
@@ -808,7 +821,7 @@ You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-[10]) [11] (./sections/calendar.tex (./sections/weeks/week1.tex) (./sections/weeks/week2.tex) (./sections/weeks/week3.tex) (./sections/weeks/week4.tex) (./sections/weeks/week5.tex) (./sections/weeks/week6.tex) (./sections/weeks/week7.tex) (./sections/weeks/week8.tex) (./sections/weeks/week9.tex) (./sections/weeks/week10.tex) (./sections/weeks/week11.tex) (./sections/weeks/week12.tex) (./sections/weeks/week13.tex) (./sections/weeks/week14.tex) (./sections/weeks/week15.tex) (./sections/weeks/week16.tex)
+[9]) [10] (./sections/calendar.tex (./sections/weeks/week1.tex) (./sections/weeks/week2.tex) (./sections/weeks/week3.tex) (./sections/weeks/week4.tex) (./sections/weeks/week5.tex) (./sections/weeks/week6.tex) (./sections/weeks/week7.tex) (./sections/weeks/week8.tex) (./sections/weeks/week9.tex) (./sections/weeks/week10.tex) (./sections/weeks/week11.tex) (./sections/weeks/week12.tex) (./sections/weeks/week13.tex) (./sections/weeks/week14.tex) (./sections/weeks/week15.tex) (./sections/weeks/week16.tex)
 Overfull \vbox (23628.7525pt too high) detected at line 80
  []
 
@@ -828,26 +841,30 @@ l.80 \end{longtable}
 I can't work with sizes bigger than about 19 feet.
 Continue and I'll use the largest value I can.
 
-[12
+[11
 
 ]
 Overfull \vbox (22988.82384pt too high) detected at line 80
  []
 
-[13]) [14] (./sections/outro.tex [15
+[12]) [13] (./sections/outro.tex [14
 
-] [16] [17] [18] [19] [20] [21]) [22] [23] (./sections/resource.tex [24
+] [15] [16] [17] [18] [19] [20]) [21] (./sections/resource.tex [22
 
-] [25] [26])
+] [23] [24])
 \BKM@file=\write5
-[27] (./index.aux) ) 
+[25] (./index.aux) )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 25 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 11659 strings out of 479384
- 164057 string characters out of 5875857
- 738016 words of memory out of 5000000
- 28296 multiletter control sequences out of 15000+600000
+ 11646 strings out of 479384
+ 163809 string characters out of 5875857
+ 737900 words of memory out of 5000000
+ 28283 multiletter control sequences out of 15000+600000
  413860 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,9n,113p,1854b,817s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 89i,9n,113p,1880b,1058s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on index.dvi (27 pages, 151708 bytes).
+Output written on index.dvi (25 pages, 146496 bytes).

@@ -4,8 +4,8 @@
         {
             "name": "latexmk 🔃 ➞ tex4ht",
             "tools": [
-                "latexmk",
-                "tex4ht"
+                "tex4ht",
+                "latexmk"
             ]
         },
         {
