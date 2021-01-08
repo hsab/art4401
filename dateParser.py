@@ -4,11 +4,11 @@ import re
 
 firstMonday = datetime.strptime('01/11/2021', "%m/%d/%Y")
 classDays = ["Mon", "Wed"]
-weeks = natural_sort(os.listdir('./sections/weeks'))
+weeksPath = './sections/weeks'
 latexDateCommand = "\placeDate"
 markerA = "% replace dates begin"
 markerB = "% replace dates end"
-calendarString = "\parbox[t]{{\weeksLength}}{{\\textbf{{Week {weekNumber} }} \\\\ {dates} }} & \week{weekCharacter} \\tend \n"
+calendarString = "\parbox[t]{{\weeksLength}}{{\\textbf{{\\hypertarget{{week{weekNumber}}}Week {weekNumber}}} \\\\ {dates} }} & \week{weekCharacter} \\tend \n"
 
 def natural_sort(l): 
     convert = lambda text: int(text) if text.isdigit() else text.lower() 
@@ -17,6 +17,7 @@ def natural_sort(l):
 
 nextMonday = lambda date, weekFromFirst: firstMonday + timedelta(days=((7*weekFromFirst)))
 
+weeks = natural_sort(os.listdir(weeksPath))
 dayNames = ["Mon", "Tues", "Wed", "Thur", "Fri", "Sat", "Sun"]
 classDaysIdx = []
 calendarItems = []
@@ -35,7 +36,7 @@ def updateWeekDates():
 			days.append(days[0] + timedelta(days=i))
 
 		generatedDates = [d.strftime("\def\d"+dayNames[idx]+"{" +dayNames[idx]+ ", %m/%d}\n") for idx, d in enumerate(days)]
-		generatedDates.append(latexDateCommand + "\n\n")
+		generatedDates.append(latexDateCommand + "\n")
 
 		path = os.path.join("./sections/weeks", w)
 		with open(path) as f:

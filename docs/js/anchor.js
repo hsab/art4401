@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function addAnchors() {
     links = $('a').filter(function () {
-        return this.id.match(/x\d.*/);
+        return this.id.match(/x\d.*/) || this.id.match(/week\d.*/) ;
     }).addClass("auto-anchor fas fa-link").click(function () {
         copy(this.id);
     }).html(function(){
