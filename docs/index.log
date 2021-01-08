@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=latex 2021.1.7)  7 JAN 2021 21:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=latex 2021.1.7)  7 JAN 2021 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,7 +822,7 @@ Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 [9]) [10] (./sections/calendar.tex (./sections/weeks/week1.tex) (./sections/weeks/week2.tex) (./sections/weeks/week3.tex) (./sections/weeks/week4.tex) (./sections/weeks/week5.tex) (./sections/weeks/week6.tex) (./sections/weeks/week7.tex) (./sections/weeks/week8.tex) (./sections/weeks/week9.tex) (./sections/weeks/week10.tex) (./sections/weeks/week11.tex) (./sections/weeks/week12.tex) (./sections/weeks/week13.tex) (./sections/weeks/week14.tex) (./sections/weeks/week15.tex) (./sections/weeks/week16.tex)
-Overfull \vbox (23628.7525pt too high) detected at line 80
+Overfull \vbox (23650.7525pt too high) detected at line 80
  []
 
 ! Dimension too large.
@@ -844,7 +844,7 @@ Continue and I'll use the largest value I can.
 [11
 
 ]
-Overfull \vbox (22988.82384pt too high) detected at line 80
+Overfull \vbox (23010.82384pt too high) detected at line 80
  []
 
 [12]) [13] (./sections/outro.tex [14
@@ -867,4 +867,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  89i,9n,113p,1880b,1058s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on index.dvi (25 pages, 146996 bytes).
+Output written on index.dvi (25 pages, 147056 bytes).
