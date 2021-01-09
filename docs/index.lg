@@ -1,60 +1,90 @@
-htfcss: ecxc font-weight: bold; font-variant: small-caps;
-htfcss: ecbx  font-weight: bold;
-htfcss: ecsx  font-weight: bold;
-htfcss: ecbi  font-weight: bold;   font-style: italic;
-htfcss: ecit  font-style: italic; font-family: monospace,monospace;
-htfcss: ecss  font-family: sans-serif;
-htfcss: ecff  font-family: fantasy;
-htfcss: ecti  font-style: italic;
-htfcss: ectt  font-family: monospace,monospace;
-htfcss: ecbx  font-weight: bold;
-htfcss: ecsx  font-weight: bold;
-htfcss: ecbi  font-weight: bold;   font-style: italic;
-htfcss: ecit  font-style: italic; font-family: monospace,monospace;
-htfcss: ecss  font-family: sans-serif;
-htfcss: ecff  font-family: fantasy;
-htfcss: ecti  font-style: italic;
-htfcss: ectt  font-family: monospace,monospace;
-htfcss: ecbx  font-weight: bold;
-htfcss: ecsx  font-weight: bold;
-htfcss: ecbi  font-weight: bold;   font-style: italic;
-htfcss: ecit  font-style: italic; font-family: monospace,monospace;
-htfcss: ecss  font-family: sans-serif;
-htfcss: ecff  font-family: fantasy;
-htfcss: ecti  font-style: italic;
-htfcss: ectt  font-family: monospace,monospace;
-htfcss: ecbx  font-weight: bold;
-htfcss: ecsx  font-weight: bold;
-htfcss: ecbi  font-weight: bold;   font-style: italic;
-htfcss: ecit  font-style: italic; font-family: monospace,monospace;
-htfcss: ecss  font-family: sans-serif;
-htfcss: ecff  font-family: fantasy;
-htfcss: ecti  font-style: italic;
-htfcss: ectt  font-family: monospace,monospace;
-htfcss: ecbx  font-weight: bold;
-htfcss: ecsx  font-weight: bold;
-htfcss: ecbi  font-weight: bold;   font-style: italic;
-htfcss: ecit  font-style: italic; font-family: monospace,monospace;
-htfcss: ecss  font-family: sans-serif;
-htfcss: ecff  font-family: fantasy;
-htfcss: ecti  font-style: italic;
-htfcss: ectt  font-family: monospace,monospace;
-htfcss: ecbx  font-weight: bold;
-htfcss: ecsx  font-weight: bold;
-htfcss: ecbi  font-weight: bold;   font-style: italic;
-htfcss: ecit  font-style: italic; font-family: monospace,monospace;
-htfcss: ecss  font-family: sans-serif;
-htfcss: ecff  font-family: fantasy;
-htfcss: ecti  font-style: italic;
-htfcss: ectt  font-family: monospace,monospace;
-htfcss: ecbx  font-weight: bold;
-htfcss: ecsx  font-weight: bold;
-htfcss: ecbi  font-weight: bold;   font-style: italic;
-htfcss: ecit  font-style: italic; font-family: monospace,monospace;
-htfcss: ecss  font-family: sans-serif;
-htfcss: ecff  font-family: fantasy;
-htfcss: ecti  font-style: italic;
-htfcss: ectt  font-family: monospace,monospace;
+htfcss: rm-lmbo  font-style: oblique;
+htfcss: rm-lmbx  font-weight: bold;
+htfcss: rm-lmbxi  font-style:italic; font-weight: bold;
+htfcss: rm-lmbxo  font-style: oblique; font-weight: bold;
+htfcss: rm-lmri  font-style:italic;
+htfcss: rm-lmro  font-style: oblique;
+htfcss: rm-lmss  font-family: sans-serif;
+htfcss: rm-lmssbo  font-family: sans-serif; font-style: oblique; font-weight: bold;
+htfcss: rm-lmssbx  font-family: sans-serif; font-weight: bold;
+htfcss: rm-lmssdc  font-family: sans-serif;
+htfcss: rm-lmssdo  font-family: sans-serif; font-style: oblique;
+htfcss: rm-lmsso  font-family: sans-serif; font-style: oblique;
+htfcss: rm-lmssq  font-family: sans-serif;
+htfcss: rm-lmssqbo  font-family: sans-serif; font-style: oblique; font-weight: bold;
+htfcss: rm-lmssqbx  font-family: sans-serif; font-weight: bold;
+htfcss: rm-lmssqo  font-family: sans-serif; font-style: oblique;
+htfcss: rm-lmcsc font-variant: small-caps;
+htfcss: ec-lmbo  font-style: oblique;
+htfcss: ec-lmbx  font-weight: bold;
+htfcss: ec-lmbxi  font-style:italic; font-weight: bold;
+htfcss: ec-lmbxo  font-style: oblique; font-weight: bold;
+htfcss: ec-lmcsco  font-style: oblique;
+htfcss: ec-lmcs  font-variant: small-caps;
+htfcss: ec-lmri  font-style:italic;
+htfcss: ec-lmro  font-style: oblique;
+htfcss: ec-lmss  font-family: sans-serif;
+htfcss: ec-lmssbo  font-family: sans-serif; font-style: oblique; font-weight: bold;
+htfcss: ec-lmssbx  font-family: sans-serif; font-weight: bold;
+htfcss: ec-lmssdc  font-family: sans-serif;
+htfcss: ec-lmssdo  font-family: sans-serif; font-style: oblique;
+htfcss: ec-lmsso  font-family: sans-serif; font-style: oblique;
+htfcss: ec-lmssq  font-family: sans-serif;
+htfcss: ec-lmssqbo  font-family: sans-serif; font-style: oblique; font-weight: bold;
+htfcss: ec-lmssqbx  font-family: sans-serif; font-weight: bold;
+htfcss: ec-lmssqo  font-family: sans-serif; font-style: oblique;
+htfcss: ec-lmtcsc  font-family: monospace,monospace;
+htfcss: ec-lmtcso  font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmtk  font-family: monospace,monospace;
+htfcss: ec-lmtko  font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmtl  font-weight: light; font-family: monospace,monospace;
+htfcss: ec-lmtlc  font-weight: light; font-family: monospace,monospace;
+htfcss: ec-lmtlco  font-weight: light; font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmtlo  font-weight: light; font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmtt  font-family: monospace,monospace;
+htfcss: ec-lmtti  font-family: monospace,monospace; font-style:italic;
+htfcss: ec-lmtto  font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmvtk  font-family: monospace,monospace;
+htfcss: ec-lmvtko  font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmvtl  font-weight: light; font-family: monospace,monospace;
+htfcss: ec-lmvtlo  font-weight: light; font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmvtt  font-family: monospace,monospace;
+htfcss: ec-lmvtto  font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmbo  font-style: oblique;
+htfcss: ec-lmbx  font-weight: bold;
+htfcss: ec-lmbxi  font-style:italic; font-weight: bold;
+htfcss: ec-lmbxo  font-style: oblique; font-weight: bold;
+htfcss: ec-lmcsco  font-style: oblique;
+htfcss: ec-lmcs  font-variant: small-caps;
+htfcss: ec-lmri  font-style:italic;
+htfcss: ec-lmro  font-style: oblique;
+htfcss: ec-lmss  font-family: sans-serif;
+htfcss: ec-lmssbo  font-family: sans-serif; font-style: oblique; font-weight: bold;
+htfcss: ec-lmssbx  font-family: sans-serif; font-weight: bold;
+htfcss: ec-lmssdc  font-family: sans-serif;
+htfcss: ec-lmssdo  font-family: sans-serif; font-style: oblique;
+htfcss: ec-lmsso  font-family: sans-serif; font-style: oblique;
+htfcss: ec-lmssq  font-family: sans-serif;
+htfcss: ec-lmssqbo  font-family: sans-serif; font-style: oblique; font-weight: bold;
+htfcss: ec-lmssqbx  font-family: sans-serif; font-weight: bold;
+htfcss: ec-lmssqo  font-family: sans-serif; font-style: oblique;
+htfcss: ec-lmtcsc  font-family: monospace,monospace;
+htfcss: ec-lmtcso  font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmtk  font-family: monospace,monospace;
+htfcss: ec-lmtko  font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmtl  font-weight: light; font-family: monospace,monospace;
+htfcss: ec-lmtlc  font-weight: light; font-family: monospace,monospace;
+htfcss: ec-lmtlco  font-weight: light; font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmtlo  font-weight: light; font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmtt  font-family: monospace,monospace;
+htfcss: ec-lmtti  font-family: monospace,monospace; font-style:italic;
+htfcss: ec-lmtto  font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmvtk  font-family: monospace,monospace;
+htfcss: ec-lmvtko  font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmvtl  font-weight: light; font-family: monospace,monospace;
+htfcss: ec-lmvtlo  font-weight: light; font-style: oblique; font-family: monospace,monospace;
+htfcss: ec-lmvtt  font-family: monospace,monospace;
+htfcss: ec-lmvtto  font-style: oblique; font-family: monospace,monospace;
 File: index.html
 File: index.tmp
 Font_Css("4"): .small-caps{font-variant: small-caps; }
@@ -67,12 +97,13 @@ File: css/normalize.min.css
 File: css/adj.css
 File: js/anchor.js
 --- characters ---
-Font("ectt","1000","10","100")
-Font("ecrm","1000","10","100")
-Font("ecbx","1000","10","100")
-Font("ecrm","0900","9","100")
-Font("ectt","0900","9","100")
-Font("ecbx","0900","9","100")
+Font("rm-lmr","10","10","100")
+Font("ec-lmtt","10","10","100")
+Font("rm-lmbx","10","10","100")
+Font("rm-lmr","9","9","100")
+Font("ec-lmtt","9","9","100")
+Font("rm-lmbx","9","9","100")
 Font("cmsy","9","9","100")
-Font("ecti","0900","9","100")
-Font("ecxc","0900","9","100")
+Font("pzdr","","10","90")
+Font("rm-lmri","9","9","100")
+Font("rm-lmr","8","8","100")

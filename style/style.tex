@@ -2,7 +2,7 @@
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 
- 
+
 \documentclass[10pt,letter,english]{article}
 \usepackage[margin=1.0in]{geometry}
 
@@ -11,6 +11,7 @@
 \usepackage{longtable}
 \usepackage{booktabs}
 
+\usepackage[abspath]{currfile}
 
 \usepackage{soul} % letterspacing, underlining, and more
 \usepackage[T1]{fontenc}
@@ -21,6 +22,14 @@
 }
 \makeatother
 
+\usepackage{fontspec}
+\newfontfamily\emojifont[Renderer=Harfbuzz]{JoyPixels}
+
+\newcommand{\emoji}[1]{%
+      {\emojifont #1}
+}
+
+\usepackage{./style/mycommands}
 
 \usepackage[utf8]{inputenc}
 \usepackage{textcomp} % euro and other symbols
@@ -28,12 +37,14 @@
 
 \usepackage{enumitem}% http://ctan.org/pkg/enumitem
 
+\usepackage{xparse}
+\usepackage{graphicx}
 
 \usepackage{xcolor}
 \usepackage{sectsty}
 \definecolor{defaultColor}{rgb}{1,0.2,0.2}
 \chapterfont{\color{defaultColor}}
-\sectionfont{\color{defaultColor}} 
+\sectionfont{\color{defaultColor}}
 
 \usepackage{xurl}
 \usepackage{bookmark}
@@ -63,10 +74,18 @@
 \hyphenpenalty=10000
 % \sloppy
 
+\newcommand{\due}[1]{{%
+                  \ifdefined\HCode
+                        {\sethlcolor{defaultColor}\hl{\textbf{\mbox{(#1)}}}}
+                  \else
+                        \textbf{(#1)}
+                  \fi
+            }}
+
 \def\placeDate{%
-% \begin{itemize}[noitemsep,topsep=0pt,leftmargin=*,label={}]%
-%       \item \textcolor{defaultColor}{\textbf{\textsc{Mon \hspace{1mm} \dMon \hspace{1mm} --- \hspace{1mm} Wed \hspace{1mm} \dWed}}}%
-% \end{itemize}%
+      % \begin{itemize}[noitemsep,topsep=0pt,leftmargin=*,label={}]%
+      %       \item \textcolor{defaultColor}{\textbf{\textsc{Mon \hspace{1mm} \dMon \hspace{1mm} --- \hspace{1mm} Wed \hspace{1mm} \dWed}}}%
+      % \end{itemize}%
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,17 +1,17 @@
 :root {
-    --osu-red: rgb(255 50 50 / 1);
+    --osu-red: 255, 50, 50;
 }
 
 tr>td+td {
     white-space: normal !important;
 }
 
-
 table.longtable>tbody>tr>td+td {
     width: 82%;
 }
 
-ul.itemize1, ul.itemize2 {
+ul.itemize1,
+ul.itemize2 {
     padding-inline-start: 0px;
 }
 
@@ -26,7 +26,7 @@ table.longtable {
 
 a,
 a:visited {
-    color: var(--osu-red);
+    color: rgb(var(--osu-red));
     text-decoration: none;
 }
 
@@ -49,6 +49,12 @@ span.sout {
 
 span.texthl {
     background: #FFEA3D;
+    border-radius: 5px;
+}
+
+.longtable .texthl {
+    background: rgba(var(--osu-red), 0);
+    text-shadow: 0px 0px 10px rgb(var(--osu-red));
 }
 
 span.textul {
@@ -56,7 +62,7 @@ span.textul {
 }
 
 span.textcolor {
-    color: var(--osu-red);
+    color: rgb(var(--osu-red));
 }
 
 body {
@@ -83,7 +89,6 @@ span.subsectionToc {
     padding-left: 2em;
 }
 
-
 .tableofcontents {
     display: block;
     position: fixed;
@@ -105,7 +110,7 @@ span.subsectionToc {
     padding: 10px;
     border-radius: 5px;
     align-content: baseline;
-    background: var(--osu-red);
+    background: rgb(var(--osu-red));
     box-shadow: 0px 5px 30px rgb(148 29 29);
     display: inline-block;
 }
@@ -120,28 +125,29 @@ span.paragraphHead {
     font-weight: 700;
 }
 
-h4.subsectionHead, h4.likesubsectionHead {
+h4.subsectionHead,
+h4.likesubsectionHead {
     font-size: 1.2em;
 }
 
 h3.sectionHead {
     font-size: 1.4em;
-    color: var(--osu-red);
+    color: rgb(var(--osu-red));
 }
 
 table#TBL-3 {
     margin-bottom: 1em;
 }
 
-table#TBL-6 tr >td:last-child {
+table#TBL-6 tr>td:last-child {
     padding-left: 1em;
 }
 
-table#TBL-6 tr >td + td {
+table#TBL-6 tr>td+td {
     padding-left: 1em;
 }
 
-table#TBL-3 tr >td:last-child {
+table#TBL-3 tr>td:last-child {
     padding-left: 1em;
 }
 
@@ -151,11 +157,9 @@ table#TBL-3 tr >td:last-child {
         justify-content: flex-end;
         padding: 1em .5em;
     }
-
     .tableofcontents>span {
         margin: 2px;
     }
-
     body {
         padding: 1em;
     }
@@ -170,18 +174,25 @@ table#TBL-3 tr >td:last-child {
     cursor: pointer;
 }
 
-.auto-anchor:hover{
-    color: var(--osu-red)
+span.discord-path {
+    color: black;
+    font-size: .8em;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px red;
+}
+
+.auto-anchor:hover {
+    color: rgb(var(--osu-red))
 }
 
 .tooltip {
     position: relative;
     display: inline-block;
-  }
-  
-  .tooltip .tooltiptext {
+}
+
+.tooltip .tooltiptext {
     visibility: hidden;
-    background-color: var(--osu-red);
+    background-color: rgb(var(--osu-red));
     color: #fff;
     text-align: Left;
     border-radius: 6px;
@@ -197,9 +208,19 @@ table#TBL-3 tr >td:last-child {
     font-weight: 400;
     display: inline-block;
     white-space: nowrap;
-  }
-  
-  .tooltip:hover .tooltiptext {
+}
+
+.tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
-  }
+}
+
+ul.itemize3 {
+    padding: 0;
+}
+
+.emoji {
+    width: 1.5em;
+    height: auto;
+    margin-bottom: -0.4em;
+}

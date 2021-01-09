@@ -1,15 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
     addAnchors()
+    addClassToEmojis()
 });
 '[id*="cat"]'
 
+
+function addClassToEmojis() {
+    links = $('img').filter(function () {
+        return this.src.includes('emoji')
+    }).addClass('emoji')
+}
+
 function addAnchors() {
     links = $('a').filter(function () {
-        return this.id.match(/x\d.*/) || this.id.match(/week\d.*/) ;
+        return this.id.match(/x\d.*/) || this.id.match(/week\d.*/);
     }).addClass("auto-anchor fas fa-link").click(function () {
         copy(this.id);
-    }).html(function(){
-        return `<span class="tooltiptext" id="`+this.id+`ttp">Copy to clipboard</span>`
+    }).html(function () {
+        return `<span class="tooltiptext" id="` + this.id + `ttp">Copy to clipboard</span>`
     }).wrap(`<div class='tooltip'></div>`)
 }
 

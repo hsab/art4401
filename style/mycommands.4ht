@@ -1,0 +1,18 @@
+%\let\oldFunction\myfunction
+%%\renewcommand\myfunction[2]{\a:myfunction\tmp:myfunction#1#2\b:myfunction} 
+%
+%\renewcommand\myfunction[2]{%
+%\a:myfunction%
+%\oldFunction{#1}{#2}
+%\b:myfunction%
+%}
+%
+%\NewConfigure{myfunction}{2}
+%
+%\Configure{myfunction}{\ifvmode\IgnorePar\fi\EndP\HCode{<div class="foo">}\par}
+%{\ifvmode\IgnorePar\fi\EndP\HCode{</div>}\par}
+
+
+
+%
+%\endinput

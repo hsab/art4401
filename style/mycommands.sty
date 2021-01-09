@@ -1,0 +1,12 @@
+\ProvidesPackage{mycommands}
+\RequirePackage{pifont}
+
+\newenvironment{discordenv}{}{}
+
+\newcommand{\discord}[2]{%
+    \begin{discordenv}%
+        \textbf{#1\ding{220}\##2}%
+    \end{discordenv}%
+}
+
+\endinput

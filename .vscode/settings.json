@@ -2,7 +2,14 @@
     "latex-workshop.latex.recipe.default": "first",
     "latex-workshop.latex.recipes": [
         {
-            "name": "latexmk 🔃 ➞ tex4ht",
+            "name": "luatex4ht ➞ lualatex 🔃",
+            "tools": [
+                "luatex4ht",
+                "lualatexmk"
+            ]
+        },
+        {
+            "name": "tex4ht ➞ latexmk 🔃",
             "tools": [
                 "tex4ht",
                 "latexmk"
@@ -44,7 +51,6 @@
             ]
         }
     ],
-
     "latex-workshop.latex.tools": [
         {
             "name": "latexmk",
@@ -75,6 +81,22 @@
             "env": {}
         },
         {
+            "name": "luatex4ht",
+            "command": "make4ht",
+            "args": [
+                "-l",
+                "-u",
+                "-d",
+                "docs",
+                "-c",
+                "./tex4ht/config.cfg",
+                "-e",
+                "./tex4ht/build.mk4",
+                "index"
+            ],
+            "env": {}
+        },
+        {
             "name": "lualatexmk",
             "command": "latexmk",
             "args": [
@@ -82,6 +104,19 @@
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "-lualatex",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "xelatexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-xelatex",
                 "-outdir=%OUTDIR%",
                 "%DOC%"
             ],
@@ -142,5 +177,6 @@
             "env": {}
         }
     ],
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "editor.wordWrap": "on"
 }

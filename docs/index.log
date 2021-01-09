@@ -1,21 +1,61 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=latex 2021.1.8)  8 JAN 2021 00:45
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
+This is LuaTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=dvilualatex 2021.1.8)  9 JAN 2021 00:32
+ restricted system commands enabled.
 **\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCode"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode ./tex4ht/config.cfg,,charset=utf-8,html5.a.b.c.\input "\detokenize{index}"
+Lua module: luaotfload-main 2020-09-02 3.15 luaotfload entry point
+Lua module: luaotfload-init 2020-09-02 3.15 luaotfload submodule / initialization
+Lua module: lualibs 2020-08-31 2.72 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-08-31 2.72 ConTeXt Lua libraries -- extended collection.
+Lua module: luaotfload-log 2020-09-02 3.15 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2020-09-02 3.15 luaotfload submodule / parsers
+Lua module: luaotfload-configuration 2020-09-02 3.15 luaotfload submodule / config file reader
+luaotfload | conf : Root cache directory is "/home/hirad/.texlive/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2020-08-31.lua" from kpse-resolved path "/usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-2020-08-31.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 0x1.8e353f7ced917p+1
+Lua module: luaotfload-fallback 2020-09-02 3.15 luaotfload submodule / fallback
+Lua module: luaotfload-multiscript 2020-09-02 3.15 luaotfload submodule / multiscript
+Lua module: luaotfload-script 2020-09-02 3.15 luaotfload submodule / Script helpers
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Lua module: luaotfload-loaders 2020-09-02 3.15 luaotfload submodule / callback handling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2020-09-02 3.15 luaotfload submodule / database
+Lua module: luaotfload-unicode 2020-09-02 3.15 luaotfload submodule / Unicode helpers
+Lua module: luaotfload-colors 2020-09-02 3.15 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 3
+Lua module: luaotfload-resolvers 2020-09-02 3.15 luaotfload submodule / resolvers
+luaotfload | conf : Root cache directory is "/home/hirad/.texlive/texmf-var/luatex-cache/generic/names".
+Lua module: luaotfload-features 2020-09-02 3.15 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2020-09-02 3.15 luaotfload submodule / letterspacing
+Lua module: luaotfload-embolden 2020-09-02 3.15 luaotfload submodule / embolden
+Lua module: luaotfload-notdef 2020-09-02 3.15 luaotfload submodule / notdef
+Lua module: luaotfload-suppress 2020-09-02 3.15 luaotfload submodule / suppress
+Lua module: luaotfload-szss 2020-09-02 3.15 luaotfload submodule / Special feature handling
+Lua module: luaotfload-auxiliary 2020-09-02 3.15 luaotfload submodule / auxiliary functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Lua module: luaotfload-tounicode 2020-09-02 3.15 luaotfload submodule / tounicode
+Lua module: luaotfload-dvi 2020-09-02 3.15 luaotfload submodule / DVI
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'.
 (./index.tex (./style/style.tex (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
-)
-\c@part=\count177
-\c@section=\count178
-\c@subsection=\count179
-\c@subsubsection=\count180
-\c@paragraph=\count181
-\c@subparagraph=\count182
-\c@figure=\count183
-\c@table=\count184
+luaotfload | db : Font names database loaded from /home/hirad/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count173
+\c@section=\count174
+\c@subsection=\count175
+\c@subsubsection=\count176
+\c@paragraph=\count177
+\c@subparagraph=\count178
+\c@figure=\count179
+\c@table=\count180
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -41,9 +81,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count185
-\Gm@cntv=\count186
-\c@Gm@tempcnt=\count187
+\Gm@cnth=\count181
+\Gm@cntv=\count182
+\c@Gm@tempcnt=\count183
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -70,12 +110,12 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \TX@old@col=\dimen151
 \TX@target=\dimen152
 \TX@delta=\dimen153
-\TX@cols=\count188
+\TX@cols=\count184
 \TX@ftn=\toks19
 ) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip51
-\multirow@cntb=\count189
+\multirow@cntb=\count185
 \multirow@dima=\skip52
 \bigstrutjot=\dimen154
 ) (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
@@ -84,16 +124,16 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip54
 \LTpre=\skip55
 \LTpost=\skip56
-\LTchunksize=\count190
+\LTchunksize=\count186
 \LTcapwidth=\dimen155
 \LT@head=\box49
 \LT@firsthead=\box50
 \LT@foot=\box51
 \LT@lastfoot=\box52
-\LT@cols=\count191
-\LT@rows=\count192
-\c@LT@tables=\count193
-\c@LT@chunks=\count194
+\LT@cols=\count187
+\LT@rows=\count188
+\c@LT@tables=\count189
+\c@LT@chunks=\count190
 \LT@p@ftn=\toks20
 ) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
@@ -107,13 +147,29 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen163
 \cmidrulekern=\dimen164
 \defaultaddspace=\dimen165
-\@cmidla=\count195
-\@cmidlb=\count196
+\@cmidla=\count191
+\@cmidlb=\count192
 \@aboverulesep=\dimen166
 \@belowrulesep=\dimen167
-\@thisruleclass=\count197
-\@lastruleclass=\count198
+\@thisruleclass=\count193
+\@lastruleclass=\count194
 \@thisrulewidth=\dimen168
+) (/usr/share/texmf-dist/tex/latex/currfile/currfile.sty
+Package: currfile 2020/09/29 v0.7d Provides the file path elements of the current input file
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/share/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2020/09/29 v0.8a Hooks for input files
+(/usr/share/texmf-dist/tex/latex/filehook/filehook-2020.sty
+Package: filehook-2020 2020/09/29 v0.8a Hooks for input files
+)) (/usr/share/texmf-dist/tex/latex/currfile/currfile-abspath.sty
+Package: currfile-abspath 2020/09/29 v0.7d Provides absolute file paths, the parent working directory and the main file name
+)
+\c@currfiledepth=\count195
 ) (/usr/share/texmf-dist/tex/generic/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks21
@@ -127,31 +183,102 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@ulht=\dimen171
 ) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+(/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/fontspec-hooks.4ht
+version 2020-10-17-13:53
+(/usr/share/texmf-dist/tex/generic/tex4ht/usepackage-fontspec.4ht
+version 2020-09-02-14:24
+)) (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/generic/tex4ht/expl3-hooks.4ht
+version 2020-10-17-13:53
+) (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-12-03 L3 programming layer (loader) 
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2020-09-24 L3 backend support: dvips
+\l__pdf_internal_box=\box53
+\g__pdf_backend_object_int=\count196
+\l__pdf_backend_content_box=\box54
+\l__pdf_backend_model_box=\box55
+\g__pdf_backend_annotation_int=\count197
+\g__pdf_backend_link_int=\count198
+\g__pdf_backend_link_sf_int=\count199
+))
+Package: xparse 2020-10-27 L3 Experimental document command parser
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX (/usr/share/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count266
+\l__fontspec_language_int=\count267
+\l__fontspec_strnum_int=\count268
+\l__fontspec_tmp_int=\count269
+\l__fontspec_tmpa_int=\count270
+\l__fontspec_tmpb_int=\count271
+\l__fontspec_tmpc_int=\count272
+\l__fontspec_em_int=\count273
+\l__fontspec_emdef_int=\count274
+\l__fontspec_strong_int=\count275
+\l__fontspec_strongdef_int=\count276
+\l__fontspec_tmpa_dim=\dimen172
+\l__fontspec_tmpb_dim=\dimen173
+\l__fontspec_tmpc_dim=\dimen174
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+) (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (./style/mycommands.sty
+
+LaTeX Warning: You have requested package `./style/mycommands',
+               but the package provides `mycommands'.
+
+Package: mycommands 
+(/usr/share/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+(/usr/share/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+(/usr/share/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks26
 \inpenc@posthook=\toks27
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
 ) (/usr/share/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
-(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count199
+\etb@tempcnta=\count277
 )) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip58
-\enit@outerparindent=\dimen172
+\enit@outerparindent=\dimen175
 \enit@toks=\toks28
-\enit@inbox=\box53
-\enit@count@id=\count266
-\enitdp@description=\count267
+\enit@inbox=\box56
+\enit@count@id=\count278
+\enitdp@description=\count279
+) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/generic/tex4ht/graphics-hooks.4ht
+version 2020-10-17-13:53
+) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 105.
+(/usr/share/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+))
+\Gin@req@height=\dimen176
+\Gin@req@width=\dimen177
 ) (/usr/share/texmf-dist/tex/generic/tex4ht/xcolor-hooks.4ht
 version 2020-10-17-13:53
 ) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -160,9 +287,6 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: dvips.def on input line 225.
-(/usr/share/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
-)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
@@ -198,6 +322,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+\pdftexcmds@toks=\toks29
 ) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ) (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
@@ -213,19 +338,17 @@ Package auxhook Warning: Cannot patch \document,
 (auxhook)                using \AtBeginDocument instead.
 
 )
-\@linkdim=\dimen173
-\Hy@linkcounter=\count268
-\Hy@pagecounter=\count269
+\@linkdim=\dimen178
+\Hy@linkcounter=\count280
+\Hy@pagecounter=\count281
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 ) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count270
+\Hy@SavedSpaceFactor=\count282
 Package hyperref Info: Option `colorlinks' set `true' on input line 4338.
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
@@ -234,18 +357,18 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count271
+\c@Hy@tempcnt=\count283
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen174
+\XeTeXLinkMargin=\dimen179
 (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 (/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count272
-\Field@Width=\dimen175
-\Fld@charsize=\dimen176
-\Field@toks=\toks29
+\Fld@menulength=\count284
+\Field@Width=\dimen180
+\Fld@charsize=\dimen181
+\Field@toks=\toks30
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -259,7 +382,7 @@ LaTeX Info: Redefining \pageref on input line 6421.
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
 with kernel methods
 )
-\Hy@abspage=\count273
+\Hy@abspage=\count285
 
 Package hyperref Message: Stopped early.
 
@@ -270,22 +393,22 @@ File: htex4ht.def 2020-05-15 v7.00e Hyperref driver for TeX4ht
 Package hyperref Info: tex4ht is already loaded.
 ) (/usr/share/texmf-dist/tex/latex/bookmark/bkm-dvips.def
 File: bkm-dvips.def 2020-11-06 v1.29 bookmark driver for dvips (HO)
-\BKM@id=\count274
+\BKM@id=\count286
 )) (/usr/share/texmf-dist/tex/generic/tex4ht/xcolor-hooks.4ht
 version 2020-10-17-13:53
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 47.
+Package hyperref Info: Option `colorlinks' set `true' on input line 58.
 (/usr/share/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box54
-\UL@hyphenbox=\box55
+\UL@box=\box57
+\UL@hyphenbox=\box58
 \UL@skip=\skip59
-\UL@hook=\toks30
-\UL@height=\dimen177
-\UL@pe=\count275
-\UL@pixel=\dimen178
-\ULC@box=\box56
+\UL@hook=\toks31
+\UL@height=\dimen182
+\UL@pe=\count287
+\UL@pixel=\dimen183
+\ULC@box=\box59
 Package: ulem 2019/11/18
-\ULdepth=\dimen179
+\ULdepth=\dimen184
 ) (/usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
 (/usr/share/texmf-dist/tex/latex/import/import.sty
@@ -304,11 +427,15 @@ version 2020-03-12-14:03
 ) (/usr/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty
 version 2020-10-16-13:47
 --- needs --- tex4ht index ---
-\tmp:cnt=\count276
+\tmp:cnt=\count288
+
+\openout15 = index.tmp
 (./index.tmp)
 \tmp:dim=\skip62
 (./index.xref)
 \:refout=\write3
+
+\openout3 = index.xref
 (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
 version 2020-11-27-15:09
 --------------------------------------
@@ -379,16 +506,52 @@ version 2020-04-13-14:20
 --- Note --- To print a timestamp, use the command line option timestamp
 --------------------------------------
 )
-\:tokwrite=\toks31
-\:tokpage=\toks32
+\:tokwrite=\toks32
+\:tokpage=\toks33
 --------------------------------------
 --- Note --- for back links to toc, use the command line option `sections+'
 --------------------------------------
 --------------------------------------
 --- Note --- for linear crosslinks of pages, use the command line option `next'
 --------------------------------------
+
+\openout15 = index.4ct
 \:tocout=\write4
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+
+\openout4 = index.4tc
+(/usr/share/texmf-dist/tex/generic/tex4ht/latex.4ht
+version 2020-10-03-14:24
+LaTeX Info: Redefining \_ on input line 173.
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 112.
+(/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) (/usr/share/texmf-dist/tex/generic/kastrup/binhex.tex) (/usr/share/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2020/08/10 v2.0s Standard LaTeX file
+\@remove@tlig@@@@=\luafunction11
+LaTeX Font Info:    Redeclaring font encoding TU on input line 106.
+) (/usr/share/texmf-dist/tex/generic/tex4ht/tuenc-luatex.4ht
+version 2018-08-30-15:28
+(/usr/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+(/usr/share/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count289
+)
+\CatcodeTableOther=\catcodetable12
+\CatcodeTableExpl=\catcodetable13
+) (/usr/share/texmf-dist/tex/lualatex/luacode/luacode.sty
+Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
+(/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+\luacode@lines=\toks34
+\luacode@table@soft=\catcodetable14
+)
+Inserting `Char to entity' at position 2 in `pre_linebreak_filter'.
+Inserting `hpack-char-to-entity' at position 2 in `hpack_filter'.
+Inserting `hpack-char-to-entity' at position 1 in `vpack_filter'. (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
 version 2020-11-27-15:09
 ) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
 version 2020-09-18-15:30
@@ -396,9 +559,7 @@ version 2020-09-18-15:30
 version 2020-11-09-14:28
 ) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
 version 2020-04-13-14:20
-) (/usr/share/texmf-dist/tex/generic/tex4ht/latex.4ht
-version 2020-10-03-14:24
-LaTeX Info: Redefining \_ on input line 173.
+))
 LaTeX Info: Redefining \, on input line 787.
 LaTeX Info: Redefining \; on input line 788.
 LaTeX Info: Redefining \! on input line 789.
@@ -546,9 +707,9 @@ version 2020-11-09-14:28
 ) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
 version 2020-04-13-14:20
 )) (/usr/share/texmf-dist/tex/generic/tex4ht/longtable.4ht
-\LT:box=\box57
-\LT:ebox=\box58
-\tmp:bx=\box59
+\LT:box=\box60
+\LT:ebox=\box61
+\tmp:bx=\box62
 (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
 version 2020-11-27-15:09
 --------------------------------------
@@ -580,6 +741,34 @@ version 2020-09-18-15:30
 version 2020-11-09-14:28
 ) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
 version 2020-04-13-14:20
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/fontspec.4ht (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-11-27-15:09
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2020-09-18-15:30
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2020-11-09-14:28
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2020-04-13-14:20
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/fontspec-luatex.4ht
+version 2017-01-24-15:21
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-11-27-15:09
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2020-09-18-15:30
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2020-11-09-14:28
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2020-04-13-14:20
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/pifont.4ht
+version 2009-05-21-09:32
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-11-27-15:09
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2020-09-18-15:30
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2020-11-09-14:28
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2020-04-13-14:20
 )) (/usr/share/texmf-dist/tex/generic/tex4ht/inputenc.4ht
 version 2009-05-21-09:32
 (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
@@ -591,6 +780,40 @@ version 2020-11-09-14:28
 ) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
 version 2020-04-13-14:20
 )) (/usr/share/texmf-dist/tex/generic/tex4ht/enumitem.4ht
+version 2009-05-21-09:32
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-11-27-15:09
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2020-09-18-15:30
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2020-11-09-14:28
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2020-04-13-14:20
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/graphicx.4ht
+version 2018-10-01-14:24
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-11-27-15:09
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2020-09-18-15:30
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2020-11-09-14:28
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2020-04-13-14:20
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/graphics.4ht (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2020-11-27-15:09
+--------------------------------------
+--- Note --- if included graphics are of degraded quality, try the command line options `graphics-num' or `graphics-'. The `num' should provide the density of pixels in the bitmaps (e.g., 110). 
+--------------------------------------
+--------------------------------------
+--- Note --- for key dimensions try the option `Gin-dim'; for key dimensions when bounding box is unavailable try `Gin-dim+'; neither is recommended
+--------------------------------------
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2020-09-18-15:30
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2020-11-09-14:28
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2020-04-13-14:20
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/dvips.4ht
 version 2009-05-21-09:32
 (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
 version 2020-11-27-15:09
@@ -618,17 +841,7 @@ version 2020-09-18-15:30
 version 2020-11-09-14:28
 ) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
 version 2020-04-13-14:20
-)) (/usr/share/texmf-dist/tex/generic/tex4ht/color.4ht) (/usr/share/texmf-dist/tex/generic/tex4ht/dvips.4ht
-version 2009-05-21-09:32
-(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2020-11-27-15:09
-) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2020-09-18-15:30
-) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2020-11-09-14:28
-) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2020-04-13-14:20
-)) (/usr/share/texmf-dist/tex/generic/tex4ht/url.4ht
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/color.4ht) (/usr/share/texmf-dist/tex/generic/tex4ht/url.4ht
 version 2009-05-21-09:32
 (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
 version 2020-11-27-15:09
@@ -650,7 +863,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count277
+\c@section@level=\count290
 ) (/usr/share/texmf-dist/tex/generic/tex4ht/nameref.4ht
 version 2019-12-23-13:36
 (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
@@ -700,37 +913,36 @@ version 2020-09-18-15:30
 version 2020-11-09-14:28
 ) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
 version 2020-04-13-14:20
-)) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2020-09-24 L3 backend support: dvips
-\l__pdf_internal_box=\box60
-\g__pdf_backend_object_int=\count278
-\l__pdf_backend_content_box=\box61
-\l__pdf_backend_model_box=\box62
-\g__pdf_backend_annotation_int=\count279
-\g__pdf_backend_link_int=\count280
-\g__pdf_backend_link_sf_int=\count281
-)
+))
 
 LaTeX Warning: Unused global option(s):
     [letter].
 
 (./index.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+\openout1 = index.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 65.
+(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -765,26 +977,26 @@ LaTeX Font Info:    ... okay on input line 57.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 57.
-LaTeX Info: Redefining \ref on input line 57.
-LaTeX Info: Redefining \pageref on input line 57.
-LaTeX Info: Redefining \nameref on input line 57.
+Package hyperref Info: Link coloring ON on input line 65.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
 ) (./index.4ct)
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7.
-(/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7.
+(/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./sections/intro.tex [1
 
 ]
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 30.
 [2] [3] [4] [5] [6]) [7] (./sections/projects.tex [8
 
 ] [9]
 ! Illegal parameter number in definition of \:attr.
 <to be read again> 
-                   /
-l.61 ...a/File:Filmaspectratios.svg}{Aspect ratio}
+/
+l.61 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
                                                    can be selected by you. R...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -792,8 +1004,8 @@ are all screwed up? I'm going to assume that you meant ##.
 
 ! Illegal parameter number in definition of \:te:mpa.
 <to be read again> 
-                   /
-l.61 ...a/File:Filmaspectratios.svg}{Aspect ratio}
+/
+l.61 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
                                                    can be selected by you. R...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -801,22 +1013,27 @@ are all screwed up? I'm going to assume that you meant ##.
 
 ! Illegal parameter number in definition of \:te:mpa.
 <to be read again> 
-                   /
-l.61 ...a/File:Filmaspectratios.svg}{Aspect ratio}
+/
+l.61 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
                                                    can be selected by you. R...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-[10]) [11] (./sections/calendar.tex (./sections/weeks/week1.tex) (./sections/weeks/week2.tex) (./sections/weeks/week3.tex) (./sections/weeks/week4.tex) (./sections/weeks/week5.tex) (./sections/weeks/week6.tex) (./sections/weeks/week7.tex) (./sections/weeks/week8.tex) (./sections/weeks/week9.tex) (./sections/weeks/week10.tex) (./sections/weeks/week11.tex) (./sections/weeks/week12.tex) (./sections/weeks/week13.tex) (./sections/weeks/week14.tex) (./sections/weeks/week15.tex) (./sections/weeks/week16.tex)
-Overfull \vbox (23650.7525pt too high) detected at line 80
+[10]) [11] (./sections/calendar.tex (./sections/weeks/week1.tex
+
+LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
+(Font)              using `OT1/lmr/bx/n' instead on input line 28.
+
+) (./sections/weeks/week2.tex) (./sections/weeks/week3.tex) (./sections/weeks/week4.tex) (./sections/weeks/week5.tex) (./sections/weeks/week6.tex) (./sections/weeks/week7.tex) (./sections/weeks/week8.tex) (./sections/weeks/week9.tex) (./sections/weeks/week10.tex) (./sections/weeks/week11.tex) (./sections/weeks/week12.tex) (./sections/weeks/week13.tex) (./sections/weeks/week14.tex) (./sections/weeks/week15.tex) (./sections/weeks/week16.tex)
+Overfull \vbox (21615.71014pt too high) detected at line 80
  []
 
 ! Dimension too large.
 \n:LT@start: ...\ifdim \ht \@arstrutbox >\ht \tw@ 
                                                   \@arstrutbox \else \tw@ \f...
 l.80 \end{longtable}
-                    
+                  
 I can't work with sizes bigger than about 19 feet.
 Continue and I'll use the largest value I can.
 
@@ -824,14 +1041,14 @@ Continue and I'll use the largest value I can.
 \n:LT@start: ...>\ht \tw@ \@arstrutbox \else \tw@ 
                                                   \fi \advance \dimen@ \dp \...
 l.80 \end{longtable}
-                    
+                  
 I can't work with sizes bigger than about 19 feet.
 Continue and I'll use the largest value I can.
 
 [12
 
 ]
-Overfull \vbox (23010.82384pt too high) detected at line 80
+Overfull \vbox (20975.87964pt too high) detected at line 80
  []
 
 [13]) [14] (./sections/outro.tex [15
@@ -840,14 +1057,21 @@ Overfull \vbox (23010.82384pt too high) detected at line 80
 
 ] [24] [25])
 \BKM@file=\write5
-[26] (./index.aux) ) 
-Here is how much of TeX's memory you used:
- 11660 strings out of 479384
- 163978 string characters out of 5875857
- 737948 words of memory out of 5000000
- 28297 multiletter control sequences out of 15000+600000
- 413860 words of font info for 47 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 89i,9n,113p,1880b,817s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on index.dvi (26 pages, 151668 bytes).
+\openout5 = index.out.ps
+[26] (./index.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+)
+
+Here is how much of LuaTeX's memory you used:
+ 17062 strings out of 478898
+ 381778,953878 words of node,token memory allocated
+ 485 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 2 glyph, 6 attribute, 59 glue_spec, 6 attribute_list, 1 write nodes
+   avail lists: 1:2,2:3266,3:7736,4:41,5:2056,6:507,7:37037,8:8,9:5449,10:38,11:2102
+ 33879 multiletter control sequences out of 65536+600000
+ 61 fonts using 5534679 bytes
+ 98i,9n,121p,1879b,887s stack positions out of 5000i,500n,10000p,200000b,100000s
+Output written on index.dvi (26 pages, 178028 bytes).

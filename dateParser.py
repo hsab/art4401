@@ -3,7 +3,7 @@ import os
 import re
 
 firstMonday = datetime.strptime('01/11/2021', "%m/%d/%Y")
-classDays = ["Mon", "Wed"]
+classDays = ["Tues", "Thur"]
 weeksPath = './sections/weeks'
 latexDateCommand = "\placeDate"
 markerA = "% replace dates begin"
