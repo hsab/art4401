@@ -1,5 +1,13 @@
 \ProvidesPackage{mycommands}
 \RequirePackage{pifont}
+\RequirePackage{ifthen}
+\RequirePackage{xparse}
+\RequirePackage{etoolbox}
+
+\newcounter{discexercise}
+\newcounter{discchallenge}
+\newcounter{discreading}
+\newcounter{discproject}
 
 \newenvironment{discordenv}{}{}
 
@@ -7,6 +15,48 @@
     \begin{discordenv}%
         \textbf{#1\ding{220}\##2}%
     \end{discordenv}%
+}
+
+\newcommand{\discordE}{%
+\stepcounter{discexercise}%
+\begin{discordenv}%
+        \textbf{Exercises\ding{220}exercise-\arabic{discexercise}}%
+    \end{discordenv}%
+}
+
+\newcommand{\discordC}{%
+\stepcounter{discchallenge}%
+\begin{discordenv}%
+        \textbf{Challenges\ding{220}challenge-\arabic{discchallenge}}%
+    \end{discordenv}%
+}
+
+\newcommand{\discordR}{%
+\stepcounter{discreading}%
+\begin{discordenv}%
+        \textbf{Readings\ding{220}reading-\arabic{discreading}}%
+    \end{discordenv}%
+}
+
+\newcommand{\discordP}{%
+\stepcounter{discproject}%
+\begin{discordenv}%
+        \textbf{Projects\ding{220}submission-project-\arabic{discproject}}%
+    \end{discordenv}%
+}
+
+\DeclareDocumentCommand{\itemHead}{m O{} O{} }{%
+    % \textbf{#1: #2} \due{#3}
+\ifblank{#2}{
+    \ifblank{#3}
+        {\textbf{#1}}
+        {\textbf{#1} \due{#3}}    
+    }
+    {
+        \ifblank{#3}
+        {\textbf{#1: #2}}
+        {\textbf{#1: #2} \due{#3}}    
+    }%
 }
 
 \endinput

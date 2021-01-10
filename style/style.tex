@@ -26,7 +26,11 @@
 \newfontfamily\emojifont[Renderer=Harfbuzz]{JoyPixels}
 
 \newcommand{\emoji}[1]{%
-      {\emojifont #1}
+      \ifdefined\HCode
+            {\emojifont #1}
+      \else
+            {}
+      \fi
 }
 
 \usepackage{./style/mycommands}
