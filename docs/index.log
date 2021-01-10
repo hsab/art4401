@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=dvilualatex 2021.1.7)  9 JAN 2021 20:16
+This is LuaTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=dvilualatex 2021.1.7)  10 JAN 2021 13:46
  restricted system commands enabled.
 **\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCode"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode ./tex4ht/config.cfg,,charset=utf-8,html5.a.b.c.\input "\detokenize{index}"
 Lua module: luaotfload-main 2020-09-02 3.15 luaotfload entry point
@@ -1009,11 +1009,11 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 30.
 [2] [3] [4] [5] [6]) [7] (./sections/projects.tex [8
 
-] [9]
+]
 ! Illegal parameter number in definition of \:attr.
 <to be read again> 
 /
-l.61 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
+l.37 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
                                                    can be selected by you. R...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1022,7 +1022,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \:te:mpa.
 <to be read again> 
 /
-l.61 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
+l.37 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
                                                    can be selected by you. R...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1031,31 +1031,31 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \:te:mpa.
 <to be read again> 
 /
-l.61 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
+l.37 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
                                                    can be selected by you. R...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-[10]) [11] (./sections/calendar.tex (./sections/weeks/week1.tex) (./sections/weeks/week2.tex) (./sections/weeks/week3.tex) (./sections/weeks/week4.tex) (./sections/weeks/week5.tex) (./sections/weeks/week6.tex) (./sections/weeks/week7.tex) (./sections/weeks/week8.tex) (./sections/weeks/week9.tex) (./sections/weeks/week10.tex) (./sections/weeks/week11.tex) (./sections/weeks/week12.tex) (./sections/weeks/week13.tex) (./sections/weeks/week14.tex) (./sections/weeks/week15.tex) (./sections/weeks/week16.tex) [12
+[9]) [10] (./sections/calendar.tex (./sections/weeks/week1.tex) (./sections/weeks/week2.tex) (./sections/weeks/week3.tex) (./sections/weeks/week4.tex) (./sections/weeks/week5.tex) (./sections/weeks/week6.tex) (./sections/weeks/week7.tex) (./sections/weeks/week8.tex) (./sections/weeks/week9.tex) (./sections/weeks/week10.tex) (./sections/weeks/week11.tex) (./sections/weeks/week12.tex) (./sections/weeks/week13.tex) (./sections/weeks/week14.tex) (./sections/weeks/week15.tex) (./sections/weeks/week16.tex) [11
 
-] [13]) [14] (./sections/outro.tex [15
+] [12]) [13] (./sections/outro.tex [14
 
-] [16] [17] [18] [19] [20] [21]) [22] (./sections/resource.tex [23
+] [15] [16] [17] [18] [19] [20]) [21] (./sections/resource.tex [22
 
-] [24] [25])
+] [23] [24])
 \BKM@file=\write5
 
 \openout5 = index.out.ps
-[26] (./index.aux))
+[25] (./index.aux))
 
 Here is how much of LuaTeX's memory you used:
- 17187 strings out of 478898
- 477255,953878 words of node,token memory allocated
+ 17184 strings out of 478898
+ 477244,953878 words of node,token memory allocated
  485 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 2 glyph, 6 attribute, 59 glue_spec, 6 attribute_list, 1 write nodes
-   avail lists: 1:1,2:4248,3:7248,4:41,5:2436,6:521,7:44673,8:8,9:4255,10:38,11:2718
- 33956 multiletter control sequences out of 65536+600000
+   avail lists: 2:4248,3:7248,4:43,5:2436,6:521,7:44679,8:8,9:4255,10:38,11:2718
+ 33953 multiletter control sequences out of 65536+600000
  61 fonts using 5534359 bytes
  98i,9n,121p,1879b,980s stack positions out of 5000i,500n,10000p,200000b,100000s
-Output written on index.dvi (26 pages, 186784 bytes).
+Output written on index.dvi (25 pages, 181736 bytes).
