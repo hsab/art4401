@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=dvilualatex 2021.1.7)  14 JAN 2021 19:43
+This is LuaTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=dvilualatex 2021.1.8)  19 JAN 2021 10:38
  restricted system commands enabled.
 **\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCode"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode ./tex4ht/config.cfg,,charset=utf-8,html5.a.b.c.\input "\detokenize{index}"
 Lua module: luaotfload-main 2020-09-02 3.15 luaotfload entry point
@@ -938,28 +938,28 @@ LaTeX Warning: Unused global option(s):
 (./index.aux)
 \openout1 = index.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 69.
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -994,10 +994,10 @@ LaTeX Font Info:    ... okay on input line 65.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 65.
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+Package hyperref Info: Link coloring ON on input line 69.
+LaTeX Info: Redefining \ref on input line 69.
+LaTeX Info: Redefining \pageref on input line 69.
+LaTeX Info: Redefining \nameref on input line 69.
 ) (./index.4ct)
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7.
 (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -1050,12 +1050,12 @@ are all screwed up? I'm going to assume that you meant ##.
 [25] (./index.aux))
 
 Here is how much of LuaTeX's memory you used:
- 17184 strings out of 478898
- 477244,953878 words of node,token memory allocated
+ 17189 strings out of 478898
+ 477265,953878 words of node,token memory allocated
  485 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 2 glyph, 6 attribute, 59 glue_spec, 6 attribute_list, 1 write nodes
-   avail lists: 2:4248,3:7248,4:43,5:2436,6:521,7:44679,8:8,9:4255,10:38,11:2718
- 33953 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:4362,3:7514,4:39,5:2452,6:543,7:45301,8:8,9:4423,10:38,11:2746
+ 33958 multiletter control sequences out of 65536+600000
  61 fonts using 5534359 bytes
- 98i,9n,121p,1879b,980s stack positions out of 5000i,500n,10000p,200000b,100000s
-Output written on index.dvi (25 pages, 181736 bytes).
+ 98i,9n,121p,1879b,978s stack positions out of 5000i,500n,10000p,200000b,100000s
+Output written on index.dvi (25 pages, 183528 bytes).
