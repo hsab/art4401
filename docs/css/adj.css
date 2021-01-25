@@ -22,10 +22,10 @@ table.longtable>tbody>tr:not(:nth-child(1))>td:first-child>p {
     /* border-right: 12px solid black; */
     margin-right: 1em;
     /* background: rgb(var(--osu-red)); */
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(var(--osu-red)) 100%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(var(--osu-red), 0.1) 100%);
     border-radius: 5px;
     padding: 1em;
-    color: white;
+    color: black;
 }
 
 table.longtable>tbody>tr:nth-last-child(-n+5)>td:first-child>p {
@@ -33,7 +33,7 @@ table.longtable>tbody>tr:nth-last-child(-n+5)>td:first-child>p {
 }
 
 table.longtable .tooltip>a {
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 table.longtable>tbody>tr:not(:nth-child(1))>td:first-child>p>b {
