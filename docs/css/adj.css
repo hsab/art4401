@@ -231,6 +231,33 @@ table#TBL-3 tr>td:last-child {
     body {
         padding: 1em;
     }
+    table.longtable>tbody>tr:not(:nth-child(1))>td:first-child>p>b {
+        font-size: 3em;
+    }
+    table.longtable>tbody>tr:not(:nth-child(1))>td:first-child>p {
+        font-size: 0.5em;
+    }
+    table.longtable>tbody>tr:not(:nth-child(1))>td:first-child>p {
+        height: calc(100% - 4em);
+    }
+    table.longtable .tooltip {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    table.longtable>tbody>tr:not(:nth-child(1))>td:first-child>p>b {
+        font-size: 2em;
+    }
+    table.longtable>tbody>tr:not(:nth-child(1))>td:first-child>p {
+        font-size: 0.5em;
+    }
+    table.longtable>tbody>tr:not(:nth-child(1))>td:first-child>p {
+        /* height: calc(100% - 4em); */
+    }
+    table.longtable .tooltip {
+        font-size: 12px;
+    }
 }
 
 .auto-anchor {
