@@ -45,7 +45,7 @@ table.longtable>tbody>tr:not(:nth-child(1))>td:first-child>p>b {
 }
 
 hr {
-    border: 2px dotted rgb(var(--osu-red));
+    border-top: 4px dotted rgb(var(--osu-red));
 }
 
 .longtable>tbody>tr:nth-child(n+4)>td {
