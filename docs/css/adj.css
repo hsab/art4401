@@ -6,8 +6,55 @@ tr>td+td {
     white-space: normal !important;
 }
 
-table.longtable>tbody>tr>td+td {
-    width: 82%;
+td {
+    height: 1px;
+}
+
+table.longtable>tbody>tr:not(:nth-child(1))>td:first-child {
+    vertical-align: middle;
+}
+
+table.longtable>tbody>tr:not(:nth-child(1))>td:first-child>p {
+    white-space: nowrap;
+    height: calc(100% - 2em);
+    min-height: 90px;
+    vertical-align: middle;
+    /* border-right: 12px solid black; */
+    margin-right: 1em;
+    /* background: rgb(var(--osu-red)); */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(var(--osu-red)) 100%);
+    border-radius: 5px;
+    padding: 1em;
+    color: white;
+}
+
+table.longtable>tbody>tr:nth-last-child(-n+5)>td:first-child>p {
+    display: none;
+}
+
+table.longtable .tooltip>a {
+    color: rgb(255, 255, 255);
+}
+
+table.longtable>tbody>tr:not(:nth-child(1))>td:first-child>p>b {
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: lowercase;
+    height: 50px;
+    text-shadow: 0px 0px 30px rgb(var(--osu-red));
+}
+
+hr {
+    border: 2px dotted rgb(var(--osu-red));
+}
+
+.longtable>tbody>tr:nth-child(n+4)>td {
+    /* background: black; */
+    /* display: block; */
+}
+
+table.longtable>tbody>tr>td:first-child div ul:not(:first-child) {
+    background-color: #900;
 }
 
 ul.itemize1,
@@ -41,7 +88,7 @@ li.itemize {
 }
 
 table.longtable {
-    table-layout: fixed;
+    table-layout: auto;
     width: 100%;
 }
 
@@ -209,6 +256,7 @@ span.discord-path {
 .tooltip {
     position: relative;
     display: inline-block;
+    font-size: 20px;
 }
 
 .tooltip .tooltiptext {
