@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=dvilualatex 2021.1.8)  21 FEB 2021 20:21
+This is LuaTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=dvilualatex 2021.3.1)  5 MAR 2021 21:14
  restricted system commands enabled.
 **\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCode"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode ./tex4ht/config.cfg,,charset=utf-8,html5.a.b.c.\input "\detokenize{index}"
 Lua module: luaotfload-main 2020-09-02 3.15 luaotfload entry point
@@ -1013,7 +1013,7 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
 ! Illegal parameter number in definition of \:attr.
 <to be read again> 
 /
-l.37 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
+l.35 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
                                                    can be selected by you. R...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1022,7 +1022,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \:te:mpa.
 <to be read again> 
 /
-l.37 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
+l.35 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
                                                    can be selected by you. R...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1031,7 +1031,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \:te:mpa.
 <to be read again> 
 /
-l.37 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
+l.35 ...dia/File:Filmaspectratios.svg}{Aspect ratio}
                                                    can be selected by you. R...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1051,11 +1051,11 @@ are all screwed up? I'm going to assume that you meant ##.
 
 Here is how much of LuaTeX's memory you used:
  17189 strings out of 478898
- 477234,953878 words of node,token memory allocated
+ 477238,953878 words of node,token memory allocated
  485 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 2 glyph, 6 attribute, 59 glue_spec, 6 attribute_list, 1 write nodes
-   avail lists: 1:1,2:4270,3:7422,4:40,5:2440,6:535,7:45519,8:8,9:4377,10:38,11:2780
+   avail lists: 2:4360,3:7572,4:42,5:2460,6:553,7:45697,8:8,9:4463,10:38,11:2784
  33958 multiletter control sequences out of 65536+600000
  61 fonts using 5534359 bytes
  98i,9n,121p,1879b,978s stack positions out of 5000i,500n,10000p,200000b,100000s
-Output written on index.dvi (25 pages, 183300 bytes).
+Output written on index.dvi (25 pages, 184940 bytes).
