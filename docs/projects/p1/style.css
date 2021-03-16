@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Kaerukaeru;
+    src: url(../assets/font/kaerukaeru-Regular.woff);
+}
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 
@@ -8,11 +12,11 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     line-height: 1.4em;
     font-size: 1.3em;
-    color: #000;
+    color: #fff;
     /* background-image: linear-gradient(#ffeed5, #fff); */
     /* min-height: 1600px; */
     /* background: #fff4e4; */
-    background: #f0f0f0;
+    background: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -25,12 +29,13 @@ h1 {
     /* margin: 1em 0 3em 0; */
     /* padding: 0; */
     padding-bottom: .25em;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Kaerukaeru', sans-serif;
     text-decoration: none;
     font-weight: 200;
     font-size: 5.75em;
     line-height: .9em;
     text-align: center;
+    text-shadow: 10px 10px 10px fuchsia;
 }
 .logo h2{
     /* margin: 1em 0 3em 0; */
@@ -45,11 +50,11 @@ h1 {
 }
 a,
 .button {
-    color: #000;
+    color: #fff;
     background: #00ffff9f;
     text-decoration: none;
     padding-bottom: .1em;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
     cursor: pointer;
     transition: all 0.5s ease;
 
@@ -101,9 +106,9 @@ p{
 .embedVid{
     /* border: 1px solid; */
     /* padding: 10px; */
-    box-shadow: 10px 12px #000;
+    box-shadow: 15px 15px 10px fuchsia;
     transition: 0.3s;
-    background: #fff;
+    background: #000;
 }
 
 
@@ -198,7 +203,10 @@ video:hover, img:hover {
     grid-column: 2;
     grid-row: 12;
 }
-
+.laterDate {
+    background: url(../assets/img/histranger.png);
+    background-size: cover;
+}
 
 
 @media screen and (max-width: 800px) {
